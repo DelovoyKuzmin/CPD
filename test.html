@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/anketa.css">
+   <link rel="stylesheet" href="css/discharge.min.css">
+   <title>Анкета</title>
+</head>
+
+<body>
+   <form action="testPHP.php" id="form-contact" method="POST" class="contact-form">
+      <div class="question">
+         <h3 class="question__title">Ваше ФИО</h3>
+         <input type="text" name="ques__one" id="question__text" class="question__text _req">
+      </div>
+
+      <div class="question">
+         <h3 class="question__title">Оценка качества предоставленных услуг</h3>
+         <input type="radio" name="ques__two" id="question__radio" value="5" class="question__radio" checked>
+         <label class="question__label" for="question__radio"><span>5</span></label><br>
+
+         <input type="radio" name="ques__two" id="question__radio" value="4" class="question__radio">
+         <label class="question__label" for="question__radio"><span>4</span></label><br>
+
+         <input type="radio" name="ques__two" id="question__radio" value="3" class="question__radio">
+         <label class="question__label" for="question__radio"><span>3</span></label><br>
+
+         <input type="radio" name="ques__two" id="question__radio" value="2" class="question__radio">
+         <label class="question__label" for="question__radio"><span>2</span></label><br>
+
+         <input type="radio" name="ques__two" id="question__radio" value="1" class="question__radio">
+         <label class="question__label" for="question__radio"><span>1</span></label>
+      </div>
+
+      <div class="question">
+         <h3 class="question__title">Оценка качества обучения</h3>
+         <input type="radio" name="ques__three" id="question__radio" value="5" class="question__radio" checked>
+         <label class="question__label" for="question__radio">5</label><br>
+
+         <input type="radio" name="ques__three" id="question__radio" value="4" class="question__radio">
+         <label class="question__label" for="question__radio">4</label><br>
+
+         <input type="radio" name="ques__three" id="question__radio" value="3" class="question__radio">
+         <label class="question__label" for="question__radio">3</label><br>
+
+         <input type="radio" name="ques__three" id="question__radio" value="2" class="question__radio">
+         <label class="question__label" for="question__radio">2</label><br>
+
+         <input type="radio" name="ques__three" id="question__radio" value="1" class="question__radio">
+         <label class="question__label" for="question__radio">1</label>
+      </div>
+
+      <div class="question">
+         <h3 class="question__title">Оценка качества оборудования</h3>
+         <input type="radio" name="ques__four" id="question__radio" value="5" class="question__radio" checked>
+         <label class="question__label" for="question__radio">5</label><br>
+
+         <input type="radio" name="ques__four" id="question__radio" value="4" class="question__radio">
+         <label class="question__label" for="question__radio">4</label><br>
+
+         <input type="radio" name="ques__four" id="question__radio" value="3" class="question__radio">
+         <label class="question__label" for="question__radio">3</label><br>
+
+         <input type="radio" name="ques__four" id="question__radio" value="2" class="question__radio">
+         <label class="question__label" for="question__radio">2</label><br>
+
+         <input type="radio" name="ques__four" id="question__radio" value="1" class="question__radio">
+         <label class="question__label" for="question__radio">1</label>
+      </div>
+
+      <div class="question">
+         <h3 class="question__title">Средний балл до поступления (необязательно)</h3>
+         <input type="text" name="ques__five" id="question__text" class="question__text question__text-shot">
+      </div>
+
+      <div class="question">
+         <h3 class="question__title">Средний балл после поступления (необязательно)</h3>
+         <input type="text" name="ques__six" id="question__text" class="question__text question__text-shot">
+      </div>
+
+      <div class="question">
+         <h3 class="question__title">Для получения какой услуги вы обратисись в данную организацию?</h3>
+         <input type="text" name="ques__seven" id="question__text" class="question__text _req">
+      </div>
+
+      <div class="question">
+         <h3 class="question__title">Как вы считаете, эта услуга принесла результат?</h3>
+         <input type="radio" name="ques__eight" id="question__radio" value="Да" class="question__radio" checked>
+         <label class="question__label" for="question__radio">Да</label><br>
+         <input type="radio" name="ques__eight" id="question__radio" value="Нет" class="question__radio">
+         <label class="question__label" for="question__radio">Нет</label><br>
+      </div> 
+
+      <div class="question">
+         <h3 class="question__title">Довольны ли вы качеством наших услуг?</h3>
+         <input type="radio" name="ques__nine" id="question__radio" value="Да" class="question__radio" checked>
+         <label class="question__label" for="question__radio">Да</label><br>
+         <input type="radio" name="ques__nine" id="question__radio" value="Нет" class="question__radio">
+         <label class="question__label" for="question__radio">Нет</label><br>
+      </div>
+
+      <div class="question">
+         <h3 class="question__title">Обратитесь ли вы в нашу организацию снова?</h3>
+         <input type="radio" name="ques__ten" id="question__radio" value="Да" class="question__radio" checked>
+         <label class="question__label" for="question__radio">Да</label><br>
+         <input type="radio" name="ques__ten" id="question__radio" value="Нет" class="question__radio">
+         <label class="question__label" for="question__radio">Нет</label><br>
+      </div>
+
+      <div class="question">
+         <h3 class="question__title">Порекомендовали бы вы наши услуги другим людям?</h3>
+         <input type="radio" name="ques__eleven" id="question__radio" value="Да" class="question__radio" checked>
+         <label class="question__label" for="question__radio">Да</label><br>
+         <input type="radio" name="ques__eleven" id="question__radio" value="Нет" class="question__radio">
+         <label class="question__label" for="question__radio">Нет</label><br>
+      </div>
+
+      <div class="question">
+         <h3>Напишите краткий отзыв (необязательно)</h3>
+         <textarea name="ques__twelve" id="question__area" class="question__area"></textarea>
+      </div>
+
+      <div class="button">
+         <button type="submit" class="button__sub" id="button__sub">Отправить</button>
+         <button type="reset" class="button__reset">Очистить все</button>
+      </div>
+   </form>
+</body>
+
+</html>

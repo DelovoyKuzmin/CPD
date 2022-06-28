@@ -1,0 +1,1 @@
+.new{padding:11px 11px 11px 14px;border-left:2px solid #515151}.new__head{display:flex;justify-content:space-between}.new__title{font-size:18px}.new__date{font-size:18px;color:#55bce9}.new__text{margin:20px 0 15px 0}.new__img{margin:0 auto;width:100%}.new:not(:last-child){margin-bottom:20px}

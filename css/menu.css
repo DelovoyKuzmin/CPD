@@ -1,0 +1,46 @@
+.menu {
+  padding: 13px;
+  border-right: 2px solid #515151;
+  width: 350px;
+}
+.menu__el {
+  display: block;
+  font-size: 14px;
+  border-bottom: 1px solid #d7d7d7;
+  width: 325px;
+  line-height: 29px;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.menu__el:hover {
+  color: #55bce9;
+  transition: all 0.2s;
+}
+.menu__img {
+  display: inline;
+  float: right;
+  margin: 11.5px 0;
+  transform: rotate(-90deg);
+}
+.menu__img-rotate {
+  transform: rotate(0deg);
+}
+.menu__li {
+  padding: 0 0 0 20px;
+  width: 305px;
+  display: block;
+  color: #686868;
+  line-height: 25px;
+  transition: all 0.2s;
+}
+.menu__li:hover {
+  color: #000;
+  transition: all 0.2s;
+}
+.menu__wrap {
+  display: none;
+}
+.menu__wrap-active {
+  display: block;
+}
